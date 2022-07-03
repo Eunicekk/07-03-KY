@@ -162,12 +162,12 @@ header>.btn{
   width: 1300px;
   margin: 0 auto;
 }
-#box03>.box{
+#box03 .box{
   display: flex;
   flex-wrap: wrap;
 }
 #box03 .box>div{
-  
+  width: 50%;
 }
 #box03 .box>div>p.text{
   line-height: 30px;
@@ -218,4 +218,60 @@ header>.btn{
 }
 #box03 .box>ul>li:nth-child(12){
   background: none;
+}
+
+/* box04 */
+#box04{
+  background-color: rgb(195,195,195);
+  text-align: center;
+}
+#box04 h3{
+  color: white;
+}
+#box04 div>.title{
+  color: white;
+}
+#box04 div>.text{
+  line-height: 30px;
+  margin: 0 auto 35px;
+  color: white;
+  width: 58%;
+  text-align: left;
+}
+#box04 div>ul{
+  margin-bottom: 40px;
+  color: white;
+}
+#box04 div>ul>li{
+  display: inline-block;
+  padding: 0 20px;
+  border-left: 1px solid white;
+}
+#box04 div>ul>li:first-child{
+  border: none;
+}
+#box04 div>ul>li>a{
+  color: white;
+}
+#gallery{}
+#gallery #all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#gallery figure{
+  /* width: 33%; */
+  /* width: 31%; */
+  width: calc(33% - 46px);
+  margin-bottom: 46px;
+  color: white;
+}
+#gallery figure>img{
+  margin-bottom: 23px;
+}
+#gallery .prev{
+  display: none;
+}
+#gallery .next{
+  display: none;
 }
